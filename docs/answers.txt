@@ -1,1 +1,49 @@
+Git Lab Tutorials: 10/13/2021
+GitHub Account setup: early 2021?
 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AliceDeveraux/assignment2
+   f4975e5..fe0c0fa  master -> master
+
+8 commits total using git shortlog. (since status.txt was not given the
+instruction to add before the commit then push, it was not commited at step #3. Added and pushed 
+to gitHub repo after the above commit occured)
+
+
+Wed Oct 13 23:06:17 2021 -0400 using git log README.md
+
+Branches are good for version control. They allow for easier maintaince of
+potential bug fixes and additions to features while allowing for the current version 
+to continue to run or other parts of code to be maintained at the same time
+
+Git log shots the history of commits in the repository while git status will show you 
+any modified files within the working directory.
+
+
+git log --name-only Vehicle.h
+
+git log -S"file"
+
+Inheritance is where the derived/child class has similar attributes and methods as the base/parent class in
+which the derived class includes all the implementation of the base class but caan include it's own individual
+implementation as well. Polymorphism is when a base class object can be assigned any of its derived class object
+values which can be seen by a base class array containing references to any number the its derived base class 
+objects. Encapsulation is used to limit access or to hide different pieces of data in the class to prevent
+ direct access to some elements.
+
+
+The major difference is that for Integration management, each developer has their own public repo and it pushed 
+to the blessed repository through the integration  manager while the Dictator and Lietenants, the developers 
+push their changes to the assigned lietenant's repo.
+
+
+Larger teams would benefit from "Dictator and Lieutenants" work flow more than "Centralized" because
+individuals would not have direct access to push changes to the central repository. There would be more
+people who could look for conflicts before making an lasting changes to the projects repo which could
+prevent wasted time and headache over accidents that likely occurs with a 100 person team.
